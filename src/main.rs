@@ -6,6 +6,7 @@ fn hello_world() {
 
 fn main() {
     App::new()
+        .add_plugins(DefaultPlugins)
         .add_system(hello_world)
-        .run();
+        .run()
 }
