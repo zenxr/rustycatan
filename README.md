@@ -2,6 +2,12 @@
  
 RustyCatan, to be built using bevy -- an ECS (Entity Controller System)-based game engine.
 
+## Running
+
+Dependencies should auto-install (except for OS dependencies) when running via `cargo run`.
+
+To run with fast compiles enabled: `cargo run --features bevy/dynamic`
+
 # TODO
 
 ## Development
