@@ -5,7 +5,7 @@ use bevy::{
     render::mesh::PrimitiveTopology,
 };
 
-fn hexagon_mesh() -> Mesh {
+pub fn hexagon_mesh() -> Mesh {
     let center = ([0., 0., 0.], [0., 0., 1.], [0., 0.]);
 
     let x = |root: f32| (root * 2. * PI / 6.).cos();
