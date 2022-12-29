@@ -1,4 +1,6 @@
 use bevy::prelude::*;
+mod shapes;
+use shapes::*;
 
 fn setup(
     mut commands: Commands,
