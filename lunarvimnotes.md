@@ -16,3 +16,5 @@
 | `<Leader>bb` | Go to the previous buffer |
 | `t` | Use telescope to fuzzily open files  |
 | `<Leader>f` |  Telescope fuzzy file opener |
+| `<C-w>,<C-w>` | Switch between windows (like file explorer) |
+
